@@ -25,7 +25,7 @@ function MovingImageDiv(props) {
   }, []);
 
   return (
-    <Box ref={ref} w={"100%"} mt={"90px"}>
+    <Box ref={ref} w={"100%"} mt={"200px"} mb={"50px"}>
       <Box
         as={motion.div}
         style={{
